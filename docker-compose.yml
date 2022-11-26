@@ -1,0 +1,12 @@
+
+services:
+  jupyterlab:
+    image: amalic/jupyterlab:latest
+    ports:
+      - 8888:8888
+    volumes:
+      - ./notebooks:/notebooks
+      - ./settings:/root/.jupyter/lab/user-settings/@jupyterlab/
+    environment:
+      PASSWORD: ""
+      NASDAQ_DATA_LINK_API_KEY: "${QUANDL_API_KEY}"

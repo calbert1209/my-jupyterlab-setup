@@ -1,0 +1,13 @@
+{
+    // Terminal
+    // @jupyterlab/terminal-extension:plugin
+    // Terminal settings.
+    // *************************************
+
+    "fontFamily": "Monoid HalfTight",
+    
+    // Theme
+    // The theme for the terminal.
+    "theme": "dark"
+
+}

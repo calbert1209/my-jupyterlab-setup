@@ -1,0 +1,12 @@
+cython
+numpy
+pandas
+matplotlib
+#netCDF4
+folium
+lxml
+nltk
+Quandl
+Nasdaq-Data-Link
+cufflinks
+chart_studio
