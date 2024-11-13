@@ -3,7 +3,7 @@ services:
   jupyterlab:
     image: amalic/jupyterlab:latest
     ports:
-      - 8888:8888
+      - 8777:8888
     volumes:
       - ./notebooks:/notebooks
       - ./settings:/root/.jupyter/lab/user-settings/@jupyterlab/
